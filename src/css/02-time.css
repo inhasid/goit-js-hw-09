@@ -35,15 +35,17 @@ button:disabled {
 .timer {
     margin-top: 30px;
     display: flex;
-    gap: 10px;
+    gap: 20px;
     justify-content: left;
 }
 
 .field {
-    background-color: #fff;
-    border: 1px solid #ccc;
     padding: 10px;
-    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
 }
 
 .value {
